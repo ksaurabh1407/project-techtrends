@@ -2,7 +2,7 @@ FROM python:2.7
 
 COPY . /app
 
-WORKDIR /app
+WORKDIR /app/techtrends
 
 RUN pip install -r requirements.txt 
 
